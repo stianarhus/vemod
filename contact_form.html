@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <LINK rel="Stylesheet" href="stil.css">
+    <script style="text/javascript" scr="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script scr="script.js"></script>
+    <title> Vemodig </title>
+  </head>
+
+  <body>
+
+  <form name="contact_form" method="post" action="send_form_email.php">
+  <table width="450px">
+  <tr>
+  <td valign="top">
+   <label for="first_name">Navn </label>
+  </td>
+  <td valign="top">
+   <input  type="text" name="first_name" maxlength="50" size="30">
+  </td>
+  </tr>
+  <tr>
+  <td valign="top">
+   <label for="email"> E-post </label>
+  </td>
+  <td valign="top">
+   <input  type="text" name="email" maxlength="80" size="30">
+  </td>
+  </tr>
+  <tr>
+  <td valign="top">
+   <label for="comments">En ytterligere kommentar?</label>
+  </td>
+  <td valign="top">
+   <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+  </td>
+  </tr>
+  <tr>
+  <td colspan="2" style="text-align:center">
+   <form method="post" action="mailto:stian@vemodig.no" >
+   <input type="submit" value="Send Email" />
+   </form>
+<!--<form action="https://vemodig.no/stian@vemodig.no" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
+-->
+  </tr>
+  </table>
+  </form>
+
+</body>
+
+</html>

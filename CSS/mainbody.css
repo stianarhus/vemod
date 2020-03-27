@@ -1,0 +1,43 @@
+#Container {
+  width: 800px; /*generell str på side*/
+  height: auto;
+  margin-left: auto;
+  margin: auto;
+  margin-top: 11px;
+  margin-bottom: 21px;
+}
+
+#Header {
+  height: 150px;
+  background-color: #CCC;
+}
+
+#Menu {
+  width: 150px;
+  height: 400px;
+  background-color: #666;
+  float: left;
+}
+
+#SideBar {
+  width: 150px;
+  height: 400px;
+  background-color: green;
+  float: left;
+
+}
+
+#MainBody {
+  width: 150px;
+  height: 400px;
+  background-color: red;
+  float: left;
+}
+
+#Footer {
+  height: 100px;
+  margin-bottom: 21px;
+  background-color: blue;
+  /*clear får den over float DIVER*/
+  clear: both;
+}

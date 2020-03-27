@@ -1,0 +1,388 @@
+
+body {
+  /* setter alt i body til center
+  text-align: center; */
+  background-color: #skyblue;
+}
+
+#leftbox {
+                float:left;
+                background:Red;
+                width:25%;
+                height:280px;
+            }
+#middlebox{
+                float:left;
+                background:Green;
+                width:50%;
+                height:280px;
+            }
+#rightbox{
+                float:right;
+                background:blue;
+                width:25%;
+                height:280px;
+}
+    h1{
+    color:green;
+    text-align:center;
+    }
+
+#linjediv {
+
+  margin-right: 80%;
+  position: inherit;
+  background: #ddd;
+  border: 1px solid #999;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #ccc;
+}
+#demo {
+  right: 5%;
+  position: fixed;
+  top: inherit;
+  text-align: center;
+  background: lightblue;
+  border: 1px solid #999;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #ccc;
+
+}
+#demo2 {
+  position: fixed;
+  left: 80%;
+  top: inherit;
+  text-align: center;
+  background: white;
+
+  padding: 10px;
+
+  margin-right: inherit;
+}
+
+/* Add a black background color to the top navigation */
+.topNav {
+  background-color: #000080;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topNav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topNav a.overskrift{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #4169E1;
+  color: white;
+}
+
+
+.pLeft {
+  float: left;
+  margin: 9px;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    background-color: #F5F5F5	;
+    min-width: 50px;
+    max-width: 200px;
+    position: static;
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+li a {
+    display: block;
+    color: #87CEEB;
+    padding: 3% 3%;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: darkeslateygray;
+    color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-family: times new roman;
+    width: 100%;
+}
+
+h3 {
+  color: grey;
+}
+
+/* position1 {
+  <style>
+  h2 {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+*/
+/* .div1 {
+  width: 400px;
+}*/
+
+.liste {
+  max-width: left;
+  background-color: skyblue;
+  margin: 5px;
+}
+
+p {
+  font-family: times;
+  color: tase;
+  text-align: center;
+}
+
+#text {
+  font-family: times;
+  color: grey;
+  text-align: left;
+  text-transform: full-width;
+}
+
+#div1 {
+  background-color: white;
+  height: 80px;
+  width: 400px;
+  float: left;
+  margin: inherit;
+  position: static;
+  padding: 50px;
+  top: 40px;
+
+}
+.img {
+  height: 80px;
+
+}
+#div2 {
+  background-color: white;
+  height: 80px;
+  width: 400px;
+  float: left;
+  margin: inherit;
+}
+
+#div3 {
+  background-color: #white;
+  height: 80px;
+  width: 400px;
+  float: right;
+  margin: inherit;
+}
+#div_center {
+  background-color: #F5FFFA;
+  height: 80px;
+  width: 400px;
+  float: right;
+  margin: inherit;
+}
+
+
+
+.div1 {
+
+  background-color: #F5FFFA;
+  height: 80px;
+  width: 400px;
+  float: left;
+  margin: 10px;
+}
+.div2 {
+  background-color: white;
+  height: 30px;
+  width: 400px;
+  float: left;
+  margin: 10px;
+}
+.hoytidKnapp {
+    text-align: center;
+}
+
+.button {
+  /* knapp lagt til midt på siden fra venstre*/
+    position: absolute;
+    left: 45%;
+}
+
+#liste {
+  background-color: #FFEFD5;/* #F5FFFA; */
+  float: center;
+  margin: 150px;
+  width: 400px;
+
+}
+
+.kontakt_info {
+  color: red;
+}
+
+.page {
+  width: auto;
+  margin: auto;
+}
+  .menu {
+    text-align: center;
+    height: 100px;
+    background-color: #ffb3b3;    /* Medium red */
+    text-decoration: overline;
+    text-decoration-color: lightred;
+    color: red;
+
+  }
+
+  .sidebar {
+    width: 410px;
+    height: 400px;
+    background-color: #ff4d4d;    /* Red */
+    float: left;
+    margin: 3px;
+  }
+
+.sidebar2 {
+  width: 425px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  margin: 3px;
+}
+.sidebar3 {
+  width: 410px;
+  height: 400px;
+  background-color:  #ff3333; /* ligth red*/
+  float: left;
+  margin: 3px;
+}
+.content {
+  width: 100%;
+  height: 80px;
+  background-color: #ffe6e6;
+  float: left;
+  position: absolute;
+  bottom: 10px;
+}
+.a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 12%;
+    width: 10px;
+    background-color: #ffcccc;
+    min-width: 50px;
+    max-width: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    height: 150px;
+}
+.iframe {
+  height: 500px;
+  width: 500px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+footer {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: inherit;
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Tatt arrangement sine divs */
+.forsideSidebar {
+  width: 410px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  margin: 3px;
+}
+
+.forsideSidebar2 {
+width: 425px;
+height: 400px;
+background-color: white;
+float: left;
+margin: 3px;
+}
+.forsideSidebar3 {
+width: 410px;
+height: 400px;
+background-color:  white; /* ligth red*/
+float: left;
+margin: 3px;
+}
+.forsideContent {
+width: 100%;
+height: 80px;
+background-color: white;
+float: left;
+position: absolute;
+bottom: 440px;
+}
