@@ -35,30 +35,43 @@
 
 <!-- START PÅ INNHOLD-->
 <div class="forsideContent">
-  <p id="text">     En knapp til tvilsbesåere av midler</p>
+  <p id="text">En knapp til tvilsbesåere av midler</p>
    <button onclick="window.location.href='hoytid.html'"> HØYTIDSOVERSIKT </button></p>
 </div>
 
-  <div class="row">
-    <div class="column">
-    <img src="Skjermbilde 2018-11-04 kl. 23.53.03.png" alt="Livet" style="width:100%">
+<div class = "carousel">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Julebord1.jpg" style="width:100%">
+      <div class="text">I heten.</div>
     </div>
-    <div class="column">
-      <img src="IMG_7126.png" alt="Livet" style="width:100%">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Julebord2.jpg" style="width:100%">
+      <div class="text">I kjent positur.</div>
     </div>
-
-  </div>
-<div class="forsideSidebar2"> Elers gir ikke denne så mye per dags </div>
-
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Julebord3.jpg" style="width:100%">
+      <div class="text">Ja, vi kan smile.</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script src="script.js"></script>    
 </div>
-</div>
-
-<!-- <footer>
-      <p> Hva er <a href="https://no.wikipedia.org/wiki/Vemodig.no"> [vemo:´di].no? </a>
-      <p class="konakt_info"> Spørsmål? support@vemodig.no</p>
-       <a href="mailto:stian@vemodig.no">Kontakt</a>
-       <br>
-      <br>
-  </footer> -->
   </body>
 </html>
