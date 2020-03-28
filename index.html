@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <LINK rel="Stylesheet" href="stil.css">
+    <LINK rel="Stylesheet" href="index.css">
     <script scr="countdown.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,55 +23,86 @@
       </script>
     <a href="pamelding.html">Påmelding</a>
     <a href="try.html">Kommende arrangement</a>
+    <a href="hoytid.html">Høytidsoversikt</a>
   </div>
 
 
+  <p id="countdown2"> </p>
+  <p id="countdown1"> Dager til dagen </p>
   <script src="countdown.js">
     countDownDate();
-    </script>
-  <p id="demo2">  </p>
-  <p id="demo"> Dager til dagen </p>
-<br><br><br><br>
+  </script>
 
 <!-- START PÅ INNHOLD-->
-<div class="forsideContent">
-  <p id="text">En knapp til tvilsbesåere av midler</p>
-   <button onclick="window.location.href='hoytid.html'"> HØYTIDSOVERSIKT </button></p>
-</div>
 
 <div class = "carousel">
   <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="Julebord1.jpg" style="width:100%">
+      <img src="images/Julebord1.jpg" style="width:100%">
       <div class="text">I heten.</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="Julebord2.jpg" style="width:100%">
+      <img src="images/Julebord2.jpg" style="width:100%">
       <div class="text">I kjent positur.</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="Julebord3.jpg" style="width:100%">
+      <img src="images/Julebord3.jpg" style="width:100%">
       <div class="text">Ja, vi kan smile.</div>
     </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
     
     </div>
     <br>
     
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-    
-    <script src="script.js"></script>    
+    <script src="script.js"></script>
 </div>
+<!-- start sw-rss-feed code --> 
+<script type="text/javascript"> 
+  rssfeed_url = new Array(); 
+  rssfeed_url[0]="www.nrk.no/toppsaker.rss";  
+  rssfeed_frame_width="230"; 
+  rssfeed_frame_height="260"; 
+  rssfeed_scroll="on"; 
+  rssfeed_scroll_step="6"; 
+  rssfeed_scroll_bar="off"; 
+  rssfeed_target="_blank"; 
+  rssfeed_font_size="12"; 
+  rssfeed_font_face=""; 
+  rssfeed_border="on"; 
+  rssfeed_css_url="https://feed.surfing-waves.com/css/style4.css"; 
+  rssfeed_title="on"; 
+  rssfeed_title_name=""; 
+  rssfeed_title_bgcolor="#3366ff"; 
+  rssfeed_title_color="#fff"; 
+  rssfeed_title_bgimage=""; 
+  rssfeed_footer="off"; 
+  rssfeed_footer_name="rss feed"; 
+  rssfeed_footer_bgcolor="#fff"; 
+  rssfeed_footer_color="#333"; 
+  rssfeed_footer_bgimage=""; 
+  rssfeed_item_title_length="50"; 
+  rssfeed_item_title_color="#666"; 
+  rssfeed_item_bgcolor="#fff"; 
+  rssfeed_item_bgimage=""; 
+  rssfeed_item_border_bottom="on"; 
+  rssfeed_item_source_icon="off"; 
+  rssfeed_item_date="off"; 
+  rssfeed_item_description="on"; 
+  rssfeed_item_description_length="120"; 
+  rssfeed_item_description_color="#666"; 
+  rssfeed_item_description_link_color="#333"; 
+  rssfeed_item_description_tag="off"; 
+  rssfeed_no_items="0"; 
+  rssfeed_cache = "be56e4f498ce270fef87f5c67e58a9c3"; 
+  //--> 
+  </script> 
+  <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+  <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
+  <div style="color:#ccc;font-size:10px; text-align:right; width:230px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
+  <!-- end sw-rss-feed code -->
   </body>
 </html>
