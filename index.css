@@ -2,7 +2,11 @@
 body {
   /* setter alt i body til center
   text-align: center; */
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: skyblue;
+>>>>>>> e6c7a24190327b2a00575faef33c3c0b5afe170e
 }
 
 /* Add a black background color to the top navigation */
