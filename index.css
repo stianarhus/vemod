@@ -2,12 +2,12 @@
 body {
   /* setter alt i body til center
   text-align: center; */
-  background-color: #skyblue;
+  background-color: white;
 }
 
 /* Add a black background color to the top navigation */
 .topNav {
-  background-color: #000080;
+  background-color: rgb(0, 200, 240);
   overflow: hidden;
 
 }
@@ -21,7 +21,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -38,12 +38,12 @@ body {
 .topNav a.overskrift{
   float: left;
   padding: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
   font-size: 30px;
-  background-color: #4169E1;
+  background-color: rgb(248, 249, 246);
   color: white;
 }
 
@@ -61,38 +61,71 @@ body {
     height: 150px;
 }
 
-#countdown1 {
-  right: 5%;
-  position: fixed;
-  top: inherit;
+.description-container {
   text-align: center;
-  background: lightblue;
-  border: 1px solid #999;
-  padding: 10px;
-  box-shadow: 0 0 5px 3px #ccc;
-
-}
-#countdown2 {
-  position: fixed;
-  left: 80%;
-  top: inherit;
-  text-align: center;
-  background: white;
-  padding: 10px;
-  margin-right: inherit;
+  padding: 30px;
 }
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.Lenke-container {
+  padding: 10px;
+  position: absolute;
+  top: 750px;
+  left: 75px;
+  border-style: solid;
+  border-color: rgb(255, 0, 65);
+}
+
+.Lenker {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  outline: none;
+}
+
+.pornhub {
+  padding: 30px;
+  
+}
+
+.nrk {
+  padding: 30px;
+}
+
+.tv2sporten {
+  padding: 30px;
+}
+
+.vg {
+  padding: 30px;
+}
+
+.finn {
+  padding: 30px;
+}
+
+.youtube {
+  padding: 30px;
+}
+
+.spotify-container {
+  text-align: right;
+  position: relative;
+  padding: 30px;
+  top: -80px;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
   left: 33.33%;
-  top: 20%;
-  position: fixed;
+  top: 40%;
+  position: absolute;
   margin: auto;
 }
 
