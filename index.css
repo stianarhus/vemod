@@ -59,8 +59,16 @@ body {
     height: 150px;
 }
 
+.nyhets-feed {
+  left: 7%;
+  position: absolute;
+  top: 55%;
+}
+
 .description-container {
-  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 23%;
   padding: 30px;
 }
 
@@ -72,10 +80,11 @@ body {
 .Lenke-container {
   padding: 10px;
   position: absolute;
-  top: 750px;
-  left: 75px;
-  border-style: solid;
+  top: 115%;
   border-color: rgb(255, 0, 65);
+  border-style: solid;
+  right: 2%;
+  left: 2%;
 }
 
 .Lenker {
@@ -114,17 +123,18 @@ body {
 
 .spotify-container {
   text-align: right;
-  position: relative;
+  position: absolute;
   padding: 30px;
-  top: -80px;
+  top: 40%;
+  left: 72%;
 }
 
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
-  left: 33.33%;
-  top: 40%;
+  left: 32.6%;
+  top: 45%;
   position: absolute;
   margin: auto;
 }
